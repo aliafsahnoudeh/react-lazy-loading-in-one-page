@@ -1,0 +1,7 @@
+.sidebar-left {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  justify-content: flex-start;
+  align-items: center;
+}

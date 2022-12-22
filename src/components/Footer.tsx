@@ -6,7 +6,7 @@ import guitar from '../assets/guitar.png';
 import mic from '../assets/mic.png'; 
 import rock from '../assets/rock.png'; 
 
-import "./Footer.css"
+import "../styles/Footer.css"
 
 function Footer() {
 
@@ -15,13 +15,13 @@ function Footer() {
   })
 
   return (
-    <header className="footer">
+    <div className="footer">
       <img src={bass} alt="" />
       <img src={amp} alt="" />
       <img src={guitar} alt="" />
       <img src={mic} alt="" />
       <img src={rock} alt="" />
-    </header>
+    </div>
   );
 }
 

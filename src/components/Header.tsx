@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import "./Header.css"
+import "../styles/Header.css"
 
 function Header() {
 

@@ -1,10 +1,10 @@
 import React, { Suspense, useEffect, useState } from 'react';
 
+import './styles/App.css';
+
 const Header = React.lazy(() => import('./components/Header'));
 const Footer = React.lazy(() => import('./components/Footer'));
 const SidebarLeft = React.lazy(() => import('./components/SidebarLeft'));
-
-// import './App.css';
 
 function App() {
 

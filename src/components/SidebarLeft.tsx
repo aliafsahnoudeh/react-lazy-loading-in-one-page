@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
 
+import "../styles/SidebarLeft.css"
+
 function SidebarLeft() {
 
   useEffect(() => {
@@ -7,7 +9,7 @@ function SidebarLeft() {
   })
 
   return (
-    <header className="sidebar-left">
+    <div className="sidebar-left">
       <ul>
         <li>Link</li>
         <li>Link</li>
@@ -15,7 +17,7 @@ function SidebarLeft() {
         <li>Link</li>
         <li>Link</li>
       </ul>
-    </header>
+    </div>
   );
 }
 
